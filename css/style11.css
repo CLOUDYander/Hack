@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #222222;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.head{
+display: flex;
+flex-direction: row;
+position: relative;
+background: #222222;
+}
+.write{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 48px;
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.img1{
+    margin-left:4%;
+    margin-top:2.5%;
+    height: 15%;
+    width: 15%;
+}
+.img2{
+    margin-top:2%;
+    margin-left: 5%;
+    height: 35%;
+    width: 45%;
+}
+.img3{
+    margin-right: 4%;
+    margin-top: 2.5%;
+    height: 15%;
+    width: 15%;
+}
+.trees{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5%;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+.img4{
+    width: 45%;
+}
+.treetext{
+    text-align: center;
+    color: white;
+    font-size: 74px;
+    margin-top: 10%;
+}
+.bottom{
+    width: 100%;
+    margin-top:73.2%;
+}
+.pins{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:-10%;
+    height: 50%;
+}
+.pin_ing{
+    height: 6%;
+    width: 6%;
+}

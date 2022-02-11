@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+outline:none;
+}
+body{
+height: 100%;
+display: flex;
+background-size: 100%;
+background-color: #222222;
+}
+
+header{
+    height: 150px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+}
+#qr_photo{
+    height: 108px;
+    width: 108px;
+}
+
+#qr_but{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#input
+{
+    width:60%;
+    height: 100px;
+    margin-left: 57px;
+    margin-top: 4%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    border-radius: 200px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+
+
+
+color: #FFFFFF;
+
+opacity: 0.6;}
