@@ -22,3 +22,7 @@ function clean_input2_2(){
     document.getElementById("name_input2_2").value = "";
     document.getElementById("name_input2_2").type = "password";
 }
+
+function clean_input3(){
+    document.getElementById("input").value = "";
+}
