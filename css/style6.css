@@ -6,6 +6,7 @@ outline:none;
 body{
 height: 100%;
 display: flex;
+flex-direction: column;
 background-size: 100%;
 background-color: #222222;
 }
@@ -17,8 +18,9 @@ header{
     flex-direction: row;
 }
 #qr_photo{
-    height: 108px;
-    width: 108px;
+    margin-top: 20px;
+    height: 72px;
+    width: 72px;
 }
 
 #qr_but{
@@ -28,21 +30,64 @@ header{
 
 #input
 {
-    width:60%;
-    height: 100px;
-    margin-left: 57px;
-    margin-top: 4%;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(6px);
-    border-radius: 200px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
+width:55%;
+height: 100px;
+margin-left: 57px;
+margin-top: 4%;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 200px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+text-align:left ;
+padding-left: 24px;
+color: #ffffff;}
 
+input{
+margin-left: 10%;
+}
 
+#main_menu{
+display: flex;
+width: 1160px;
+height: 500px;
+margin-left: 5%;
+margin-top: 54px;
+flex-direction: row;
+background: #303030;
+border-radius: 10px;
+}
 
-color: #FFFFFF;
+#level{
+width: 520px;
+height: 520px;
+}
 
-opacity: 0.6;}
+#main_text{
+flex-direction: column;
+color: #ffffff;
+margin-top: 3%;
+}
+
+#main_step{
+margin-top: 5%;
+font-size: 80px ;
+}
+
+#main_photo{
+    display: flex;
+    width: 1160px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 54px;
+    flex-direction: row;
+    border-radius: 10px;   
+}
+
+#photo{
+width: 400px;
+height: 400px;
+margin-left: 10%;
+margin-top: 5%;
+}

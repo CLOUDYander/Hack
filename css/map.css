@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
 }
-button{
+.button{
     border: none;
+}
+.change-tree > button{
     background-color: #22222200;
 }
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
@@ -14,19 +16,17 @@ body{
 background-color: #222222;
 display: flex;
 flex-direction: column;
-max-width: 720px;
-max-height: 1280px;
 }
 
 .map{
     position: absolute;
-    height: 1280px;
+    height: 1980px;
     width: 720px;
     z-index: 1;
 }
 .map > iframe{
-    height: 1280px;
-    width: 720px;
+    height: 1850px;
+    width: 1000px;
 }
 
 .botton-panel{
@@ -35,13 +35,17 @@ max-height: 1280px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 720px;
-    height: 100px;
+    width: 980px;
+    height: 200px;
     background-color: #303030;
     z-index: 3;
-    margin-top: 950PX;
+    margin-top: 100PX;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+}
+.botton-panel > a > img{
+    height: 80px;
+    width: 80px;
 }
 .bg-tree{
     display: flex;
@@ -49,18 +53,18 @@ max-height: 1280px;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #17382c88;
     z-index: 2;
     border-radius: 20px;
 }
 .bg-tree > img{
-    height: 100px;
-    width: 80px;
+    height: 180px;
+    width: 140px;
 }
 .bg-tree > p{
-    font-size: 20px;
+    font-size: 40px;
     color: rgba(255, 255, 255, 0.658);
 }
 .change-tree{
@@ -68,4 +72,18 @@ max-height: 1280px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.sit{
+    z-index: 4;
+    width: 800px;
+    height: 120px;
+    background-color: rgba(74, 255, 74, 0.534);
+    margin-TOP: 1250px;
+    margin-left: 85px;
+    border: none;
+    border-radius: 40px;
+}
+.sit > p{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.781);
 }
