@@ -67,7 +67,7 @@ height: 520px;
 #main_text{
 flex-direction: column;
 color: #ffffff;
-margin-top: 3%;
+margin-top: 0%;
 }
 
 #main_step{
@@ -80,14 +80,13 @@ font-size: 80px ;
     width: 1160px;
     height: 500px;
     margin-left: 5%;
-    margin-top: 54px;
+    margin-top: 30px;
     flex-direction: row;
-    border-radius: 10px;   
 }
 
 #photo{
 width: 400px;
 height: 400px;
 margin-left: 10%;
-margin-top: 5%;
+margin-top: 5px;
 }
