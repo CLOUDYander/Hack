@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     outline:none;
     border: none;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
 height: 100%;
@@ -14,11 +16,11 @@ background-color: #222222;
 }
 
 #main_text{
-margin-left: 29%;
+margin-left: 27%;
 margin-top: 30%;
 font-size: 80px;
 color: #3EE28A;
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 color: #3EE28A;
@@ -26,7 +28,7 @@ color: #3EE28A;
 
 #step{
 margin-top: 15%;
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 60px;
@@ -39,7 +41,7 @@ color: #FFFFFF;
 
 #line{
     width: 380px;
-    margin-left: 30%;
+    margin-left: 31%;
     margin-top: 10%; 
     border: 1px solid #3EE28A;
 }
@@ -47,7 +49,7 @@ color: #FFFFFF;
 #name{
 margin-top: 10%;
 margin-bottom: 2%;
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-size: 48px;
 color: #FFFFFF;
 }
@@ -56,7 +58,7 @@ color: #FFFFFF;
 position: absolute;
 width: 88%;
 height: 100px;
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 50px;
@@ -72,7 +74,7 @@ border-radius: 10px;
     font-size: 40px;
     margin-top: 5%;
     color: #FFFFFF;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
 
@@ -107,7 +109,7 @@ border-radius: 10px;
 
 #license{
     margin-top: 2%;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;

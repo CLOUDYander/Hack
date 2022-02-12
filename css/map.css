@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
 }
 .button{
     border: none;
@@ -8,7 +12,7 @@
 .change-tree > button{
     background-color: #22222200;
 }
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
+
 p{
     font-family: 'Open sans';
 }
@@ -25,7 +29,7 @@ flex-direction: column;
     z-index: 1;
 }
 .map > iframe{
-    height: 1850px;
+    height: 1600px;
     width: 1000px;
 }
 
@@ -35,7 +39,7 @@ flex-direction: column;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 1010px;
     height: 200px;
     background-color: #303030;
     z-index: 3;
@@ -80,6 +84,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 20px;
 }
 .sit{
     z-index: 4;
