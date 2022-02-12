@@ -20,15 +20,10 @@ function clean_input2(){
     document.getElementById("name_input2").value = "";
 }
 function clean_input3(){
-    document.getElementById("name_input3").value = "";
-    document.getElementById("name_input3").type = "password";
+    document.getElementById("name_input3").value= "";
 }
 
 function clean_input2_2(){
     document.getElementById("name_input2_2").value = "";
     document.getElementById("name_input2_2").type = "password";
-}
-
-function clean_input3(){
-    document.getElementById("input").value = "";
 }
